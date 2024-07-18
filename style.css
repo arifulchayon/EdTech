@@ -1,0 +1,771 @@
+/* Google open sens font link up */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* ********************
+******** Global CSS   ******* 
+************************/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* now start our normal project css */
+
+/* Heading Section Css start here */
+
+.navbar{
+    width: 100%;
+    margin-top: 38px;
+}
+.navbar .container{}
+
+.navbar .container .navbar-brand{
+    color: #4A4A4A;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60px;
+    text-align: center;
+}
+
+.navbar .container .collapse{}
+
+.navbar .container .collapse .navbar-nav{
+    
+    
+}
+.navbar .container .collapse .navbar-nav .nav-item{
+    font-size: 18px;
+    line-height: 27px;
+    padding-left: 42px;
+    color: #777777;
+    
+}
+
+.navbar .container .collapse .d-flex{
+    width: 150px;
+    height: 56px;
+    border: 1px solid #289BDE;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.navbar .container .collapse .d-flex a{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-decoration: none;
+    color: #289BDE;
+}
+
+/* Heading Section Css end here */
+
+/* Carousel section css start here */
+.banner-section{
+    width: 100%;
+    margin-top: 35px;
+
+}
+
+.banner-section .container{}
+
+.banner-section .container .carousel{
+
+}
+.banner-section .container .carousel .carousel-inner{
+}
+
+.banner-section .container .carousel .carousel-inner .carousel-item{
+    
+
+}
+.banner-section .container .carousel .carousel-inner .carousel-item::before{
+    /* for background overlay, need to do this */
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #1D1D1DB2;
+}
+.banner-section .container .carousel .carousel-inner .carousel-item .carousel-caption{
+    padding-bottom: 152px;
+}
+.banner-section .container .carousel .carousel-inner .carousel-item .carousel-caption h5{
+    font-size: 65px;
+    font-weight: 600;
+    line-height: 85px;
+    color: #FFFFFF;
+
+}
+
+.banner-section .container .carousel .carousel-inner .carousel-item .carousel-caption p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #F4F4F4;
+    padding: 11px 0px 13px;
+
+}
+
+.banner-section .container .carousel .carousel-inner .carousel-item .carousel-caption .d-flex{
+    background-color: #289BDE;
+    width: 182px;
+    height: 56px;
+    border: 1px solid #289BDE;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 363px;
+}
+
+.banner-section .container .carousel .carousel-inner .carousel-item .carousel-caption .d-flex a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+.banner-section .container .carousel .carousel-control-prev{
+    width: 141px;
+}
+
+.banner-section .container .carousel .carousel-control-next{
+    width: 141px;
+}
+/* Carousel section css end here */
+
+/* Courses section css start here */
+
+.courses-section{
+    width: 100%;
+}
+.courses-section .container{}
+.courses-section .container .row{}
+.courses-section .container .row .col{}
+
+.courses-section .container .row .col .basic-details {
+    text-align: center;
+    padding: 130px 330px 35px;
+}
+
+.courses-section .container .row .col .basic-details h3{
+    color: #1D1D1D;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 60px;
+    margin-bottom: 12px;
+
+
+}
+
+.courses-section .container .row .col .basic-details p{
+    color: #777777;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+
+
+}
+
+.courses-section .container .row .col .inner-courses{
+    display: flex;
+    background: #FFFFFF;
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+    margin-bottom: 23px;
+}
+
+.courses-section .container .row .col .inner-courses .right{
+    padding: 39px 13px 0px 25px;
+}
+.courses-section .container .row .col .inner-courses .right h5{
+    color: #4A4A4A;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 37.5px;
+
+}
+
+.courses-section .container .row .col .inner-courses .right p{
+    color: #777777;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.courses-section .container .row .col .inner-courses .right .c-price{
+    color: #289BDE;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 18px;
+
+}
+
+.courses-section .container .row .col .see-more{
+    text-align: center;
+    margin: 39px 0px 80px;
+    
+    
+
+    
+
+}
+.courses-section .container .row .col .see-more a{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #FFFFFF;
+    text-decoration: none;
+    background: #289BDE;
+    border: 1PX solid #289BDE;
+    padding: 13PX 33PX;
+    border-radius: 5PX;
+
+}
+/* Courses section css end here */
+
+/* Explore section css start here */
+
+.explore-section{
+    width: 100%;
+    margin-bottom: 128px;
+}
+
+.explore-section .container{}
+
+.explore-section .container .row{}
+
+.explore-section .container .row .col{}
+
+.explore-section .container .row .col .inner-explore{
+    display: flex;
+}
+
+.explore-section .container .row .col .inner-explore .left{}
+
+.explore-section .container .row .col .inner-explore .right{
+    background: #F4FAFD;
+    border-radius: 5px;
+    padding-left: 62px;
+    padding-top: 133px;
+}
+.explore-section .container .row .col .inner-explore .right h4{
+    color: #1D1D1D;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+.explore-section .container .row .col .inner-explore .right .para01{
+    color: #777777;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 98%;
+}
+
+.explore-section .container .row .col .inner-explore .right .para02{
+    color: #777777;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 15px;
+    padding-bottom: 14px;
+}
+
+.explore-section .container .row .col .inner-explore .right h5{
+    color: #1D1D1D;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+.explore-section .container .row .col .inner-explore .right h5 .for-gap{
+    margin-left: 54px;
+    margin-right: 74px;
+}
+
+.explore-section .container .row .col .inner-explore .right .para-last{
+    color: #777777;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 15px;
+}
+
+.explore-section .container .row .col .inner-explore .right .para-last .for-gap {
+    margin-left: 45px;
+    margin-right: 40px;
+}
+
+.explore-section .container .row .col .inner-explore .right .read-more{
+    padding-top: 35px;
+
+}
+
+.explore-section .container .row .col .inner-explore .right .read-more a{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    background: #289BDE;
+    padding: 13px 33px;
+    border: 1px solid #289BDE;
+    border-radius: 5px;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+
+/* Explore section css end here */
+
+/* Join section css start here */
+
+.join-section{
+    width: 100%;
+    margin-bottom: 130px;
+
+}
+
+.join-section .container{
+    background: #289BDE;
+}
+
+.join-section .container .row{}
+
+.join-section .container .row .col{
+    padding-top: 83px;
+    padding-left: 102px;
+    padding-bottom: 62px;
+}
+
+.join-section .container .row .col .inner-details{}
+
+.join-section .container .row .col .inner-details h4{
+    color: #FFFFFF;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+.join-section .container .row .col .inner-details p{
+    color: #F4F4F4;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 13px;
+    width: 75%;
+
+}
+
+.join-section .container .row .col .reg-btn {
+    margin: 55px 0px 30px 37px;
+}
+
+.join-section .container .row .col .reg-btn a{
+    font-size: 20px;
+    color: #289BDE;
+    font-weight: 600;
+    line-height: 30px;
+    background:#FFFFFF;
+    padding: 13px 33px;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Join section css end here */
+
+/* Success section css start here */
+
+.success-section{
+    width: 100%;
+}
+.success-section .container{}
+
+.success-section .container .row{}
+
+.success-section .container .row .col{}
+
+.success-section .container .row .col .back-details{}
+
+.success-section .container .row .col .back-details h4{
+    color: #1D1D1D;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 60px;
+    width: 50%;
+
+}
+
+.success-section .container .row .col .back-details p{
+    color: #777777;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 45%;
+    padding-top: 11px;
+    padding-bottom: 32px;
+}
+
+.success-section .container .row .col .inner-card{
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+}
+
+.success-section .container .row .col .inner-card .details{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 18px;
+}
+
+.success-section .container .row .col .inner-card .details h5{
+    color: #4A4A4A;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.success-section .container .row .col .inner-card .details p{
+    color: #777777;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-top: 6px;
+}
+
+.success-section .container .row .col .inner-feedback{
+    text-align: center;
+}
+
+.success-section .container .row .col .inner-feedback .view-all{
+    text-align: center;
+    margin-top: 62px;
+    margin-bottom: 143px;
+
+}
+
+.success-section .container .row .col .inner-feedback .view-all a{
+    background: #289BDE;
+    padding: 13px 33px;
+    border: 1px solid #289BDE;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #FFFFFF;
+    text-decoration: none;
+
+
+}
+
+.success-section .container .row .col .inner-feedback h4{
+    color: #1D1D1D;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 60px;
+
+}
+
+.success-section .container .row .col .inner-feedback p {
+    color: #777777;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 13px 325px 56px 325px;
+}
+
+/* Success section css end here */
+
+/* Feedback section css start here */
+
+.feedback-section{
+    width: 100%;
+    margin-bottom: 131px;
+}
+
+.feedback-section .container{}
+
+.feedback-section .container .carousel{
+}
+
+.feedback-section .container .carousel .carousel-inner{}
+
+.feedback-section .container .carousel .carousel-inner .carousel-item{}
+
+.feedback-section .container .carousel .carousel-inner .carousel-item .row{}
+
+.feedback-section .container .carousel .carousel-inner .carousel-item .row .col{}
+
+.feedback-section .container .carousel .carousel-inner .carousel-item .row .card{
+    padding: 36px 27px 0px 39px;
+}
+
+.feedback-section .container .carousel .carousel-inner .carousel-item .row .card .image{
+    display: flex;
+    justify-content: space-between;
+    /* padding-left: 10px;
+    padding-right: 10px; */
+    padding-top: 5px;
+}
+.feedback-section .container .carousel .carousel-inner .carousel-item .row .card .card-body{
+    margin-left: -16px;
+    margin-right: -16px;
+}
+
+.feedback-section .container .carousel .carousel-inner .carousel-item .row .card .card-body .card-text{
+    color: #777777;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 6px;
+    margin-bottom: 23px;
+}
+.feedback-section .container .carousel .carousel-inner .carousel-item .row .card .card-body .writter{
+    display: flex;
+}
+
+.feedback-section .container .carousel .carousel-inner .carousel-item .row .card .card-body .writter .left{}
+
+.feedback-section .container .carousel .carousel-inner .carousel-item .row .card .card-body .writter .right{
+    padding-left: 20px;
+}
+
+.feedback-section .container .carousel .carousel-inner .carousel-item .row .card .card-body .writter .right h5{
+    color: #4A4A4A;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 16px;
+}
+
+.feedback-section .container .carousel .carousel-inner .carousel-item .row .card .card-body .writter .right p{
+    color: #777777;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 17px;
+}
+
+.feedback-section .container .carousel .slider-button .carousel-control-prev, .carousel-control-next{
+    width: 0px;
+}
+.feedback-section .container .carousel .slider-button .carousel-control-next .carousel-control-next-icon{
+    background-color: #289BDE;
+    width: 47px;
+    height: 47px;
+    border: 1px solid #289BDE;
+    border-radius: 50%;
+    position: absolute;
+    
+}
+
+.feedback-section .container .carousel .slider-button .carousel-control-prev .carousel-control-prev-icon{
+    background-color: #289BDE;
+    width: 47px;
+    height: 47px;
+    border: 1px solid #289BDE;
+    border-radius: 50%;
+    position: absolute;
+}
+/* Feedback section css end here */
+
+/* Frequently ask section css start here */
+
+.accordion{
+    width: 100%;
+    --bs-accordion-active-bg: #289BDE1A !important;
+    --bs-accordion-btn-focus-box-shadow: none !important;
+}
+
+.accordion .container{}
+
+.accordion .container .row{
+    margin-bottom: 22px;
+}
+
+.accordion .container .row .col{}
+
+.accordion .container .row .col .inner-ask{
+    text-align: center;
+}
+
+.accordion .container .row .col .inner-ask h5{
+    color: #1D1D1D;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+.accordion .container .row .col .inner-ask p{
+    color: #777777;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    
+}
+
+.accordion .container .row .col .inner-ask{
+    text-align: center;
+}
+
+.accordion .container .row .col .inner-ask h4{
+    color: #1D1D1D;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+.accordion .container .row .col .inner-ask p {
+    color: #777777;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 0px 320px;
+    margin-top: 20px;
+    margin-bottom: 27px;
+}
+
+.accordion .container .row .col .accordion-item {
+    margin: 0px 221px;
+}
+
+.accordion .container .row .col .accordion-item .accordion-header {
+    
+}
+
+.accordion .container .row .col .accordion-item .accordion-header .accordion-button{
+    color: #4A4A4A;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 47px;
+    border-radius: 10px;
+}
+
+.accordion .container .row .col .accordion-item .accordion-collapse{
+    color: #777777;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}    
+.accordion .container .row .col .accordion-item .accordion-collapse .accordion-body{
+    padding: 21px 15px 18px 42px;
+
+}
+/* Frequently ask section css end here */
+
+/* Trusted companies css start here */
+.trusted-section{
+    width: 100%;
+    margin-top: 166px;
+    margin-bottom: 60px;
+}
+.trusted-section .container{}
+
+.trusted-section .container .row{}
+
+.trusted-section .container .row .col{}
+
+.trusted-section .container .row .col .inner-part{
+    text-align: center;
+    padding-bottom: 36px;
+}
+
+.trusted-section .container .row .col .inner-part h5{
+    color: #1D1D1D;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 60px;
+
+
+}
+
+.trusted-section .container .row .col .inner-trusted{
+    text-align: start;
+}
+
+
+
+/* Trusted companies css end here */
+
+/* Footer section css start here */
+footer{
+    width: 100%;
+    background: #161616;
+    color: #FFFFFF;
+}
+
+footer .container-lg{}
+
+footer .container-lg .row{}
+
+footer .container-lg .row .col{
+   
+}
+
+
+footer .container-lg .row .col .footer-insider{
+    text-align: center;
+    padding-top: 130px;
+    
+}
+footer .container-lg .row .col .footer-insider h4{
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+footer .container-lg .row .col .footer-insider .details{
+    color: #E8E8E8;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    padding: 0px 460px;
+
+}
+
+footer .container-lg .row .col .footer-insider .Ploicy{
+    color: #E8E8E8;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 14.9px;
+}
+
+footer .container-lg .row .col .footer-insider .icon-inner{
+    padding-top: 6px;
+    padding-bottom: 130px;
+}
+
+footer .container-lg .row .col .footer-insider .icon-inner ul li{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    display: inline-block;
+    margin-left: 12px;
+    background: #242424;
+    color: #FFFFFF;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #242424;
+    border-radius: 50%;
+    font-size: 22px;
+
+
+}
+/* Footer section css end here */
